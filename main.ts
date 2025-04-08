@@ -7,7 +7,7 @@ namespace bluetooth {
     /**
      * Enable Bluetooth on the micro:bit.
      */
-    //% block="enable Bluetooth"
+    //% block="enable Bluetooth" blockExternalInputs=true color="#00FF00"
     export function enableBluetooth(): void {
         control.enableBluetooth();
     }
